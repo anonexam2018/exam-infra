@@ -1,6 +1,6 @@
 jobs:
 # Replace params / app_name with your heroku app name
-- name: deploy-app
+- name: exam-app
   plan:
   - aggregate:
     - get: exam-app
