@@ -1,7 +1,7 @@
 # Modify this file to make it your own :-)
 
 variable "app_prefix" {
-  default = "anonsexam"
+  default = "devops2019"
 }
 
 variable "pipeline_name" {
