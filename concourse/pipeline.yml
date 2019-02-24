@@ -5,7 +5,6 @@ jobs:
   - aggregate:
     - get: exam-app
     - get: exam-infra
-      trigger: true
   - task: mvn_build
     file: exam-infra/concourse/java/task.yml
     input_mapping: {source: exam-app}
@@ -23,7 +22,6 @@ jobs:
   plan:
   - aggregate:
     - get: exam-infra
-      trigger: true
   - task: apply
     file: exam-infra/concourse/terraform/task.yml
     input_mapping: {source: exam-infra}
