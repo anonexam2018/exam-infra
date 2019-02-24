@@ -4,4 +4,4 @@ credentials.yaml
 credentials_example.yml
 credentials.yml
 .terraform
-
+*.tfstate.backup

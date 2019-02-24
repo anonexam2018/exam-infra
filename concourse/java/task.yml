@@ -8,10 +8,10 @@ image_resource:
 
 inputs:
   - name: source
-  - name: monitoring-infra
+  - name: exam-infra
 
 outputs:
   - name: jar-file
 
 run:
-  path: monitoring-infra/concourse/java/task.sh
+  path: exam-infra/concourse/java/task.sh
