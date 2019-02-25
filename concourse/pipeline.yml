@@ -38,7 +38,7 @@ jobs:
       rebase: true
 
 resources:
-
+      
 # Replace with your own repository
 - name: exam-app
   type: git
